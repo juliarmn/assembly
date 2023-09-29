@@ -1,0 +1,29 @@
+1. Introdução aos Processadores Móveis
+
+    Definição de processadores móveis.
+    Breve histórico da evolução dos processadores móveis.
+    Importância dos processadores móveis nos dispositivos modernos.
+
+2. Arquitetura e Funcionamento dos Processadores Móveis
+
+    Explicação da arquitetura de um processador móvel.
+    Componentes-chave, incluindo CPU, GPU e unidades de IA.
+    Como os processadores móveis executam tarefas e processam dados.
+
+3. Desempenho e Eficiência Energética
+
+    Discussão sobre o equilíbrio entre desempenho e eficiência energética.
+    Importância do desempenho para a experiência do usuário.
+    Estratégias de fabricação para melhorar a eficiência energética.
+
+4. Tecnologias Emergentes em Processadores Móveis
+
+    Inteligência artificial e aprendizado de máquina em processadores móveis.
+    Tecnologias de fabricação avançadas, como 7nm e 5nm.
+    Recursos de segurança e criptografia incorporados.
+
+5. Impacto dos Processadores Móveis na Tecnologia e na Sociedade
+
+    Uso de processadores móveis em dispositivos além de smartphones (ex: tablets, dispositivos IoT).
+    Contribuição para a transformação digital e a mobilidade.
+    O papel dos processadores móveis na evolução das comunicações e na conectividade global.

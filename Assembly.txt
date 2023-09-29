@@ -1,0 +1,43 @@
+mov: um tipo de endereçamento, faz a variável receber o dado
+-> mov eax, 5 -> recebe a syscall 5 -> numero 5 dentro do registrador, não vai na memória
+-> mov eax, ebx -> não vai na memória, é entre registradores
+-> mov eax, [250] -> [] indica o  endereço de memória
+
+mnemonico cmb
+
+endereçamento direto: operando diretamente na instrução
+mov eax, [0xAA] -> pássa o endereço da informação
+
+endereçamento indireto: endereço dentro do registrador
+-> mov eax, [ebx]
+
+SystemCalls:
+
+As system calls (ou chamadas do sistema) são APIs para criar uma interface entre o user space (espaço onde o utilizador tem permissão para correr os seus programas) e o kernel space (espaço onde o sistema operativo correr os seus programas que necessitam de um nível de permissão superior).
+Comando para ser executado no kernelrotina que dá privilégios especiais.
+API.
+Acesso ao kernel do linux.
+Anaalisa o estado do processador.
+Bate um foto do processador, pega as informações e leva ao kernel.
+requisição ao kernel do estado attual do processador.
+
+Manual do Kernel do linux:
+```
+man man
+```
+
+```
+man 2 open
+```
+
+Voltando... Syscall Linux:
+- Colocar o syscall no EAX
+- Armazena os argumentos em EBX, ECX ... (6 ao todo)
+
+EAX, EBX, ECX, EDX: registradores de uso geral
+ESI, EDI: registradores de índice
+EBP, ESP: registradores de base de ponteiro de pilha
+CS, DS, ES, FS, GS, SS: registradores de segmento que armazenam segmaneto de códigos e dados
+EFLAGS: armazenam informações da CPU, overflow, sinal, zero, carry
+FPU: ponto flutuante
+

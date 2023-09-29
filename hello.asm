@@ -1,5 +1,5 @@
 section .data
-    hello db 'Hello, World!',0xa    ; String a ser apresentada no terminal
+    hello db 'Hello, World!'0xa  ; String a ser apresentada no terminal
     hello_len equ $ - hello       ; Comprimento da string
 
 section .text
@@ -7,7 +7,7 @@ section .text
 _start:
 
     mov eax, 4 ; Registrador EAX recebe o valor 4
-    mov ebx, 1 ; Registrador EBX recebe o valor 1
+    mov ebx, 1 ; Registrador EBX recebe o valor 1 -> saída de texto
 
     mov ecx, hello ; Registrador ECX recebe a String
     mov edx, hello_len ; Registrador EDX recebe o comprimento da String
